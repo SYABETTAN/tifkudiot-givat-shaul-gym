@@ -62,9 +62,24 @@ npx vercel --prod --yes
 
 ## Production URL
 
-<!-- Updated after deployment -->
+**GitHub:** https://github.com/SYABETTAN/tifkudiot-givat-shaul-gym
 
-See Vercel dashboard or deployment output.
+**Vercel:** Pending deployment — run:
+
+```bash
+cd tifkudiot-givat-shaul-gym
+npx vercel login
+npx vercel --prod --yes
+```
+
+Or with a token:
+
+```bash
+export VERCEL_TOKEN=your_token_here
+npx vercel --prod --yes --token $VERCEL_TOKEN
+```
+
+After deploy, set `NEXT_PUBLIC_SITE_URL` in Vercel to your production URL.
 
 ## Editing Content
 
